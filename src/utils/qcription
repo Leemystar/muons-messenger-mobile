@@ -1,0 +1,15 @@
+!pip install qiskit
+from qiskit import QuantumCircuit,Aer, execute
+ibm APi_key==ApiKey-d98ae7fb-fa1d-42cc-9f32-b210ef1ed1df
+from https://github.com/Leemystar/muons-messenger-mobile/edit/main/ import encrr.py, decrr
+
+alpha=encrr
+beta= decrr
+state=[alpha,beta]
+qc=QuantumCircuit(1)
+qc.initialize(state,1)
+meta=qc.h(beta)
+
+deta=qc.h(deta)
+options={simulator:{seed_simulator:1800}}
+
