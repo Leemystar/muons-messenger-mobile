@@ -10,6 +10,7 @@ qc=QuantumCircuit(1)
 qc.initialize(state,1)
 meta=qc.h(beta)
 
-deta=qc.h(deta)
+deta=qc.h(meta)
+fdata=qc.c(deta)
 options={simulator:{seed_simulator:1800}}
 
